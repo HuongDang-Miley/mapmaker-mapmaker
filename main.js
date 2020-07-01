@@ -37,19 +37,6 @@ const upperCaseFirstLetters = function(arr) {
   return result;
 }
 
-// const changeToInitials = function(arr) {
-//   const result = []
-//   let secondInitial = ''
-//   for (let i = 0; i < arr.length; i++) {
-//     let firstInitial = arr[i][0].toUpperCase()
-//     if (arr[i][i] === ' ') {
-//         secondInitial = arr[i][i + 1].toUpperCase()
-//       }
-//       result.push(firstInitial + secondInitial)
-//       }
-//       return result
-  
-//     }
 const changeToInitials = function(arr) {
   let result = []
   for (let i = 0; i<arr.length; i++) {
