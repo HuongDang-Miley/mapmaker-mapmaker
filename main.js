@@ -27,6 +27,8 @@ const absoluteValues = function(arr) {
   return result
 }
 
+
+// way 1: Use 1 loop
 const upperCaseFirstLetters = function(arr) {
   const result = []
   for (let i = 0; i < arr.length; i++) {
@@ -36,6 +38,24 @@ const upperCaseFirstLetters = function(arr) {
   }
   return result;
 }
+
+// // way 2: Use 2 loops
+// const upperCaseFirstLetters = function(arr) {
+//   const result = []
+//   for (let i = 0; i < arr.length; i++) {
+//     let name = arr[i].toLowerCase()
+//     let titleCaseName = ''
+//     for (let k = 0; k < name.length; k++) {
+//       if (k === 0) {
+//         titleCaseName += name[k].toUpperCase()
+//       } else {
+//         titleCaseName += name[k]
+//       }
+//     }
+//     result.push(titleCaseName)
+//   }
+//   return result;
+// }
 
 const changeToInitials = function(arr) {
   let result = []
